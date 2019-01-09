@@ -1,0 +1,614 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ФЛЕКСУМгель</title>
+    <link href="./css/animate.css" rel="stylesheet">
+    <link href="./css/common.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+
+</head>
+<script src="../counter.js"></script>
+
+<body>
+<!--Top order-->
+<section class="order orderTop clearfix">
+    <div class="container">
+        <header class="order__icons">
+            <div class="order__icon logo">
+                <img src="img/logo.png" alt="" class="hidden_mob">
+                <img src="img/logo_mob.png" alt="" class="hidden_desk">
+            </div>
+            <div class="order__icon order__icon-signs">
+                <figure class="order__icon approved">
+                    <img src="img/approved.png">
+                    <figcaption>
+                        ОДОБРЕНО<br> ВОЗ
+                    </figcaption>
+                </figure>
+                <figure class="order__icon recommended">
+                    <img src="img/recommended.png">
+                    <figcaption>
+                        РЕКОМЕНДОВАНО МИНЗРАВОМ РФ
+                    </figcaption>
+                </figure>
+            </div>
+            <img src="img/man.png" alt="" class="order__man">
+        </header>
+        <div class="order__reason">
+            <div class="order__title">
+                <span class="title title-remove">ИЗБАВЬТЕСЬ</span>
+                <span class="title title-pain">от боли в суставах</span>
+                <span class="title title-3days">ЗА 3 ДНЯ!</span>
+            </div>
+            <ul class="order__list">
+                <li>Снимает болевой  синдром <span class="orange">за 5 минут</span></li>
+                <li>Возвращает полную <span class="orange">подвижность сустава</span></li>
+                <li>Устраняет <span class="orange">причину заболевания</span></li>
+                <li>Восстанавливает <span class="orange">костную и хрящевую ткани</span></li>
+            </ul>
+        </div>
+        <div class="orderForm">
+            <div class="pack__circle"></div>
+            <div class="old-price">
+                <span class="old_price_val">1449</span>
+                <span class="old_price_cur">руб</span>
+            </div>
+            <div class="new-price">
+                <span class="new_price_val">149</span>
+                <span class="new_price_cur">руб*</span>
+            </div>
+            <form action="">
+                <select name="country" class="orderForm__item"></select>
+                <input type="text" name="name" placeholder="Имя" class="orderForm__item">
+                <input type="text" name="phone" placeholder="Телефон" class="orderForm__item">
+                <button type="submit" class="orderForm__btn">Заказать</button>
+                <span class="disclaimer disclaimer_price">*при заказе курса</span>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!--Invalid-->
+
+<section class="invalid">
+    <div class="container clearfix">
+        <h1>ИГНОРИРОВАНИЕ БОЛЕЙ В СУСТАВАХ <span class="orange_title">ВЕДЕТ К ИНВАЛИДНОСТИ</span></h1>
+        <div class="invalid__chair"></div>
+        <div class="invalid__text">
+            <h2><span class="orange_subtitle">Боль</span> в суставах</h2>
+            <p>может являться следствием травм, трещин, <br>микротрещин <span class="bold">и даже инфекций</span>.</p>
+            <p class="attention bold" >При отсутствии грамотного <br>лечения неприятные ощущения при первых проявлениях болезни ВСЕГДА перерастают в серьезные заболевания</p>
+            <p>Только по официальным данным в России насчитывается более <span class="bold">10 миллионов больных артрозом</span> и около 300 тысяч  россиян страдают ревматоидным артритом (примерно
+                треть из них <span class="bold">имеют тяжелые формы инвалидности</span>). <span class="bold"><br>За 2018 г. заболеваемость артрозом выросла на 68%!</span></p>
+        </div>
+    </div>
+</section>
+
+<!--Symptom-->
+
+<section class="symptom">
+    <div class="container">
+        <h1>ВАМ ЗНАКОМЫ ЭТИ <span class="orange_title">СИМПТОМЫ?</span></h1>
+        <div class="symptom__items">
+            <figure>
+                <div class="item_img item_img-1"></div>
+                <figcaption><span class="bold">Интенсивная или подергивающая</span> <br>боль в пораженном суставе</figcaption>
+            </figure>
+            <figure>
+                <div class="item_img item_img-2"></div>
+                <figcaption><span class="bold">Отек и припухлость</span> <br>в области сустава</figcaption>
+            </figure>
+            <figure>
+                <div class="item_img item_img-3"></div>
+                <figcaption><span class="bold">Покраснение кожи</span> <br>в области сустава</figcaption>
+            </figure>
+            <figure>
+                <div class="item_img item_img-4"></div>
+                <figcaption><span class="bold">Повышение температуры</span> <br>в месте поражения сустава</figcaption>
+            </figure>
+            <figure>
+                <div class="item_img item_img-5"></div>
+                <figcaption><span class="bold">Нарушение</span> <br>двигательной функции сустава, скованность</figcaption>
+            </figure>
+            <figure>
+                <div class="item_img item_img-6"></div>
+                <figcaption><span class="bold">Слабость в теле</span> ломота</figcaption>
+            </figure>
+        </div>
+        <h3>ЕСЛИ У ВАС ИМЕЕТСЯ ХОТЯ БЫ ОДИН ИЗ ПЕРЕЧИСЛЕННЫХ СИМПТОМОВ, <br><span class="orange_title">ЭТО ПОВОД ДЛЯ ТОГО, ЧТОБЫ НАЧАТЬ ЛЕЧЕНИЕ НЕЗАМЕДЛИТЕЛЬНО!</span></h3>
+    </div>
+</section>
+
+<!--Remove pain -->
+
+<div class="remove">
+    <div class="container">
+        <h1><span class="orange_title">ФЛЕКСУМГЕЛЬ</span> <br>УСТРАНЯЕТ ПРИЧИНУ БОЛИ, А НЕ МАСКИРУЕТ ЕЕ!</h1>
+        <div class="remove__items">
+            <div class="remove__circles">
+            </div>
+            <div class="remove__text">
+                <h3>ИЗБАВЬТЕСЬ ОТ СУСТАВНОЙ БОЛИ НАВСЕГДА! </h3>
+                <p><b>Флексумгель вылечит ваши суставы всего за 28 дней.</b>
+                    Он не только <b>устраняет</b> артрит, артроз, бурсит и другие суставные
+                    болезни, <b>но и воздействует на саму причину заболевания.</b></p>
+            </div>
+        </div>
+        <div class="remove__list">
+            <p>В отличие от аналогичных способов снятия болевого синдрома,
+                <span class="orange">наноактивные гранулы Флексумгеля проникают к очагу
+                воспаления и устраняют первопричину возникновения
+                боли, среди которых:</span></p>
+            <ul>
+                <li>Микротрещины</li>
+                <li>Избыток мочевой кислоты</li>
+                <li>Воспаление синовиальной оболочки</li>
+            </ul>
+            <ul>
+                <li>Недостаток синовиальной жидкости</li>
+                <li>Суставная инфекция</li>
+                <li>Поражение суставного хряща</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--Treatment-->
+<section class="treatment">
+    <div class="container">
+        <h1>СОВРЕМЕННОЕ, БЫСТРОЕ И БЕЗОПАСНОЕ ЛЕЧЕНИЕ</h1>
+        <div class="treatment__impact">
+            <div class="treatment__item">
+                <div class="item-wrapper nano">
+                    <h3 class="orange_subtitle">Как это работает?</h3>
+                    <p><span class="bold">Нанокапсулы</span> Флексумгеля раскрываются при температуре от 38 °С, которая достигается при соприкосновении с кожей. Активные компоненты гранул высвобождаются в первозданном виде и проникают непосредственно к очагу боли и <span class="bold">устраняют ее причину</span>.</p>
+                </div>
+            </div>
+            <div class="treatment__item">
+                <div class="item-wrapper blood">
+                    <h3 class="orange_subtitle">Что это дает?</h3>
+                    <p>Благодаря ускоренному кровотоку <span class="bold">нормализуется обмен веществ, стабилизируется артериальное давление, улучшается общее состояние организма</span>. Отсюда - снижение болевого синдрома в первые часы применения при острых болях; при хроническом течение болезни - <span class="bold">снижение болевого синдрома до нуля происходит в течение 3-7 дней</span>.</p>
+                </div>
+            </div>
+            <div class="treatment__item">
+                <div class="item-wrapper old-man">
+                    <h3 class="orange_subtitle">Что в результате?</h3>
+                    <ul>
+                        <li>снятие отека, боли и спазма</li>
+                        <li>заживление микротрещин</li>
+                        <li>восполнение синовиальной жидкости</li>
+                        <li>восстановление суставного хряща</li>
+                        <li>выведение солей из сустава</li>
+                        <li>восполнение минерально-кальциевого баланса</li>
+                        <li>нейтрализация инфекционных процессов</li>
+                        <li>чувство легкости и подвижности в суставах</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- how it works -->
+
+<section class="work">
+    <div class="container">
+        <h1>КАК ДЕЙСТВУЕТ ФЛЕКСУМГЕЛЬ?</h1>
+        <img src="img/pack_mob.png" alt="" class="work_pack hidden_desk">
+        <div class="work__items hidden_mob">
+            <div class="work__row clearfix">
+                <div class="work__item item1">
+                    <div class="item__img">
+                        <img src="img/item1.png" alt="">
+                    </div>
+                    <div class="item__about">
+                        <span class="item__name">Экстракт морского ежа </span>
+                        <p class="item__text">Восполняет недостаток ходроитина в организме, восстанавливает природную подвижность сустава, нормализует минерально-кальциевый обмен. Укрепляет и восстанавливает костную и хрящевую ткани</p>
+                    </div>
+                </div>
+                <div class="work__item item5">
+                    <div class="item__img">
+                        <img src="img/item5.png" alt="">
+                    </div>
+                    <div class="item__about">
+                        <span class="item__name">Экстракт морской звезды </span>
+                        <p class="item__text">Обеспечивает защитное действие, что особенно важно для значительно поврежденных суставов. Попадая на ткань, разрушенную инфекционным процессом, обволакивает ее, ограничивая от вредоносного воздействия</p>
+                    </div>
+                </div>
+            </div>
+            <div class="work__row clearfix">
+                <div class="work__item item2">
+                    <div class="item__img">
+                        <img src="img/item2.png" alt="">
+                    </div>
+                    <div class="item__about">
+                        <span class="item__name">Экстракт дьявольского корня </span>
+                        <p class="item__text">Производит мощный антибактериальый эффект. Купирует болезнетворную микрофлору, разрушающую хрящевую ткань. Обезболивает, снижает отек, улучшает кровоснабжение. Увеличивает амплитуду движения пациента</p>
+                    </div>
+                </div>
+                <div class="work__item item4">
+                    <div class="item__img">
+                        <img src="img/item4.png" alt="">
+                    </div>
+                    <div class="item__about">
+                        <span class="item__name">Экстракт босвелии пильчатой </span>
+                        <p class="item__text">Ликвидирует воспалительный процесс, стимулирует выработку хондроитина, способствует регенерации поврежденных участков хрящевой ткани, обеспечивает достаточную выработку синовиальной жидкости, которая необходима для нормальной подвижности суставов</p>
+                    </div>
+                </div>
+            </div>
+            <div class="work__row clearfix">
+                <div class="work__item item3">
+                    <div class="item__img">
+                        <img src="img/item3.png" alt="">
+                    </div>
+                    <div class="item__about">
+                        <span class="item__name">Козамин</span>
+                        <p class="item__text">Является природым анальгетиком. Купирует болевой синдром на начальных стадиях лечения, благодаря чему облегчение от болезни наступает с первых дней лечения</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!--Work items Mobile Carousel -->
+
+        <div class="work__items work__items_mob owl-carousel hidden_desk">
+            <div class="work__item item1 active">
+                <div class="item__img">
+                    <img src="img/item1.png" alt="">
+                </div>
+                <div class="item__about">
+                    <span class="item__name">Экстракт морского ежа </span>
+                    <p class="item__text">Восполняет недостаток ходроитина в организме, восстанавливает природную подвижность сустава, нормализует минерально-кальциевый обмен. Укрепляет и восстанавливает костную и хрящевую ткани</p>
+                </div>
+            </div>
+
+            <div class="work__item item2">
+                <div class="item__img">
+                    <img src="img/item2.png" alt="">
+                </div>
+                <div class="item__about">
+                    <span class="item__name">Экстракт дьявольского корня </span>
+                    <p class="item__text">Производит мощный антибактериальый эффект. Купирует болезнетворную микрофлору, разрушающую хрящевую ткань. Обезболивает, снижает отек, улучшает кровоснабжение. Увеличивает амплитуду движения пациента</p>
+                </div>
+            </div>
+            <div class="work__item item3">
+                <div class="item__img">
+                    <img src="img/item3.png" alt="">
+                </div>
+                <div class="item__about">
+                    <span class="item__name">Козамин</span>
+                    <p class="item__text">Является природым анальгетиком. Купирует болевой синдром на начальных стадиях лечения, благодаря чему облегчение от болезни наступает с первых дней лечения</p>
+                </div>
+
+            </div>
+            <div class="work__item item4">
+                <div class="item__img">
+                    <img src="img/item4.png" alt="">
+                </div>
+                <div class="item__about">
+                    <span class="item__name">Экстракт босвелии пильчатой </span>
+                    <p class="item__text">Ликвидирует воспалительный процесс, стимулирует выработку хондроитина, способствует регенерации поврежденных участков хрящевой ткани, обеспечивает достаточную выработку синовиальной жидкости, которая необходима для нормальной подвижности суставов</p>
+                </div>
+            </div>
+
+            <div class="work__item item5">
+                <div class="item__img">
+                    <img src="img/item5.png" alt="">
+                </div>
+                <div class="item__about">
+                    <span class="item__name">Экстракт морской звезды </span>
+                    <p class="item__text">Обеспечивает защитное действие, что особенно важно для значительно поврежденных суставов. Попадая на ткань, разрушенную инфекционным процессом, обволакивает ее, ограничивая от вредоносного воздействия</p>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+</section>
+
+<!--Results-->
+
+<section class="result">
+    <div class="container">
+        <h1>РЕЗУЛЬТАТЫ ТЕСТОВ <br>И КЛИНИЧЕСКИХ ИССЛЕДОВАНИЙ</h1>
+
+        <div class="result__numbers">
+            <div class="result__number">
+                <div class="title">9 <span class="extralight">из </span>10</div>
+                <div class="text"><span class="bold">ЧЕЛОВЕК ИЗБАВИЛИСЬ</span> <br>ОТ СУСТАВНЫХ ЗАБОЛЕВАНИЙ МЕНЬШЕ, ЧЕМ ЗА 3 НЕДЕЛИ</div>
+            </div>
+            <div class="result__number">
+                <div class="title">99%</div>
+                <div class="text">ТЕСТИРУЕМЫХ ЗАЯВИЛИ <br><span class="bold">ОБ ОТСУТСТВИИ<br> ПОБОЧНЫХ ЭФФЕКТОВ</span></div>
+            </div>
+            <div class="result__number result__number-people">
+                <div class="title">1000+</div>
+                <div class="text"> ЧЕЛОВЕК УЖЕ <span class="bold">ПОРЕКОМЕНДОВАЛИ ФЛЕКСУМГЕЛЬ</span> СВОИМ ДРУЗЬЯМ И БЛИЗКИМ </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--why flexumgel-->
+
+<section class="why">
+    <div class="container">
+        <h1><span class="orange">ПОЧЕМУ ФЛЕКСУМГЕЛЬ ЛУЧШЕ</span> <br>ДРУГИХ ПРЕПАРАТОВ?</h1>
+        <img src="img/flexumgel_line.png" alt="">
+        <div class="why__items">
+            <div class="why__item">
+                <div class="item-wrapper safe">
+                    <h3>ПОЛНОСТЬЮ БЕЗОПАСНОЕ</h3>
+                    <p>СРЕДСТВО ФЛЕКСУМГЕЛЬ БЕРЕЖНО ЗАБОТИТСЯ О ЗДОРОВЬЕ ВАШИХ СУСТАВОВ, НЕ ПРИЧИНЯЯ НИКАКОГО ВРЕДА ОРГАНИЗМУ</p>
+                </div>
+            </div>
+            <div class="why__item">
+                <div class="item-wrapper impact">
+                    <h3>БЕЗ ПОБОЧНЫХ ДЕЙСТВИЙ</h3>
+                    <p>В ОТЛИЧИЕ ОТ ТАБЛЕТОК, КОТОРЫЕ ВЫЗЫВАЮТ ГОЛОВОКРУЖЕНИЯ, ТОШНОТУ, РВОТУ, РАЗРУШАЮТ ПЕЧЕНЬ</p>
+                </div>
+            </div>
+            <div class="why__item ">
+                <div class="item-wrapper comfort">
+                    <h3>УДОБЕН В ИСПОЛЬЗОВАНИИ</h3>
+                    <p>ПОРЦИИ ГЕЛЯ ПОМЕЩЕНЫ В ИНДИВИДУАЛЬНЫЕ УПАКОВКИ, БЛАГОДАРЯ ЧЕМУ ФЛЕКСУМГЕЛЬ УДОБНО НОСИТЬ С СОБОЙ</p>
+                </div>
+            </div>
+            <div class="why__item">
+                <div class="item-wrapper effective">
+                    <h3>100% ЭФФЕКТИВНЫЙ</h3>
+                    <p>РЕВОЛЮЦИОННЫЙ ПОДХОД В ЛЕЧЕНИИ СУСТАВОВ В ДЕСЯТКИ РАЗ ПРЕВЗОШЕЛ ПО ЭФФЕКТИВНОСТИ ТРАДИЦИОННУЮ МЕДИЦИНУ</p>
+                </div>
+            </div>
+            <div class="why__item certificate">
+                <div class="item-wrapper certif">
+                    <h3>СЕРТИФИЦИРОВАННОЕ</h3>
+                    <p>РЕКОМЕНДУЕМОЕ ВРАЧАМИ-РЕВМАТОЛОГАМИ СРЕДСТВО ДЛЯ ЛЕЧЕНИЯ В ДОМАШНИХ УСЛОВИЯХ</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Expert-->
+
+<section class="expert">
+    <div class="container">
+        <h1>МНЕНИЕ <span class="orange">СПЕЦИАЛИСТА</span></h1>
+        <div class="expert__details">
+            <h2 class="hidden_desk">Боль</h2>
+            <h3 class="hidden_desk">Основная причина, заставляющая человека задуматься о суставах.</h3>
+            <div class="expert__img">
+                <img src="img/expert_photo.png" alt="">
+                <span class="expert__name">Иван Дмитриевич Коновалов</span>
+                <span class="expert__prof">ревматолог, профессор, доктор медицинских наук</span>
+                <span class="expert__years">врачебный стаж - 27 лет</span>
+            </div>
+            <div class="expert__text">
+                <h2 class="hidden_mob">Боль</h2>
+                <h3 class="hidden_mob">Основная причина, заставляющая человека задуматься о суставах.</h3>
+                <p class="hidden_mob">Абсолютное большинство препаратов, реализуемых через аптечные сети, <span class="bold">являются способом устранения боли</span>, но не лечения болезни. В отличии от них, Флексумгель не просто купирует болевой синдром, <span class="bold">а комплексно воздействует на первопричину ее возникновения.</span></p>
+                <p class="hidden_mob">Новейшая форма выпуска препарата позволяет сохранить максимальную эффективность ингредиентов состава, которые <span class="bold">проникают к очагу воспаления</span> и уже там начинают свою работу.</p>
+                <p class="hidden_mob"><span class="bold">Эффективность Флексумгеля подтверждена</span> не только клиническими испытаниями, но и моим врачебным опытом.</p>
+
+                <div class="expert__declare hidden_mob">
+                    <span >Авторитетено заявляю:</span>
+                    <p>На сегодняшний день Флексумгель - это самое эффективное средство для борьбы с болезнями суставов среди всех ныне существующих.</p>
+                </div>
+                <button class="consult_btn" data-toggle=scroll>Получить бесплатную консультацию</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Feedback-->
+
+<section class="feedback">
+    <div class="container">
+        <h1>ОТЗЫВЫ ПАЦИЕНТОВ О ФЛЕКСУМГЕЛЕ</h1>
+        <div class="feedback__items clearfix hidden_mob">
+            <div class="feedback__item feedback__item-1">
+                <div class="item__title">
+                    <span class="name">Николай</span><br><span class="age">57 лет</span>
+                </div>
+                <div class="item__text">
+                    От артрита страдал 11 лет. Последнее время была не жизнь, а существование. Перепробовал многое, даже уколы и гормональную терапию, но только Флексумгель облегчил мои мучения! Сейчас активно им лечусь, реально помогает. Припухлость сошла, двигаться стало проще. Позже сделаю рентген. Уверен, результаты меня порадуют.
+                </div>
+            </div>
+            <div class="feedback__item feedback__item-2">
+                <div class="item__title">
+                    <span class="name">Наталья</span><br><span class="age">62 года</span>
+                </div>
+                <div class="item__text">Была неоперабельная опухоль в локте. Врачи разводити руками - вот вам кеторол, больше ничем помочь не можем. Решила искать лечение самостоятельно и нашла Флексумгель. Начаала пользоваться без особой веры в чудо, но чудо произошло! Через пару месяцев заметила явные улучшения, прошла повторное обследование и узнала, что опухоли больше нет!</div>
+            </div>
+            <div class="feedback__item feedback__item-3">
+                <div class="item__title">
+                    <span class="name">Ольгая Викторовна</span><br><span class="age">54 года</span>
+                </div>
+                <div class="item__text">Я переболела ангиной, она дала осложнение - ревматизм. Месяц не могли сбить температуру, была 38,5. Болели суставы, боль как бы прыгала: сегодня локоть, завтра колено, послезавтра сустав около пятки и т.д. Тазобедренные тогда не болели, с ейчас болят время от времени. Сейчас у меня ревматоидный артроз коленей. Спасаюсь только Флексумгелем. Боль снимает и вроде болезнь отступает. Надеюсь, что этот кошмар скоро закончится.</div>
+            </div>
+            <div class="feedback__item feedback__item-4">
+                <div class="item__title">
+                    <span class="name">Анастасия</span><br><span class="age">34 года</span>
+                </div>
+                <div class="item__text">После родов ужасно болела спина. Знакомые советовали по врачам пройтись, но куда я с грудничком на руках. Пробовала делать массаж, врач домой приходил, от него только хуже стало - неделю ребенка на руки брала со слезами на глазах. Муж не мог смотреть на мои муки, раздобыл где-то Флексумгель, начал мазать мне спину. Боль сразу отступила, через несколько недель спина перестала о себе напоминать совсем, а через три месяца я смогла стать на мостик!</div>
+            </div>
+        </div>
+
+        <!--Feedback mob carousel-->
+        <div class="feedback__items feedback_mob clearfix owl-carousel hidden_desk">
+            <div class="feedback__item feedback__item-1">
+                <div class="item__title">
+                    <span class="name">Николай</span><br><span class="age">57 лет</span>
+                </div>
+                <div class="item__text">
+                    От артрита страдал 11 лет. Последнее время была не жизнь, а существование. Перепробовал многое, даже уколы и гормональную терапию, но только Флексумгель облегчил мои мучения! Сейчас активно им лечусь, реально помогает. Припухлость сошла, двигаться стало проще. Позже сделаю рентген. Уверен, результаты меня порадуют.
+                </div>
+            </div>
+            <div class="feedback__item feedback__item-2">
+                <div class="item__title">
+                    <span class="name">Наталья</span><br><span class="age">62 года</span>
+                </div>
+                <div class="item__text">Была неоперабельная опухоль в локте. Врачи разводити руками - вот вам кеторол, больше ничем помочь не можем. Решила искать лечение самостоятельно и нашла Флексумгель. Начаала пользоваться без особой веры в чудо, но чудо произошло! Через пару месяцев заметила явные улучшения, прошла повторное обследование и узнала, что опухоли больше нет!</div>
+            </div>
+            <div class="feedback__item feedback__item-3">
+                <div class="item__title">
+                    <span class="name">Ольгая Викторовна</span><br><span class="age">54 года</span>
+                </div>
+                <div class="item__text">Я переболела ангиной, она дала осложнение - ревматизм. Месяц не могли сбить температуру, была 38,5. Болели суставы, боль как бы прыгала: сегодня локоть, завтра колено, послезавтра сустав около пятки и т.д. Тазобедренные тогда не болели, с ейчас болят время от времени. Сейчас у меня ревматоидный артроз коленей. Спасаюсь только Флексумгелем. Боль снимает и вроде болезнь отступает. Надеюсь, что этот кошмар скоро закончится.</div>
+            </div>
+            <div class="feedback__item feedback__item-4">
+                <div class="item__title">
+                    <span class="name">Анастасия</span><br><span class="age">34 года</span>
+                </div>
+                <div class="item__text">После родов ужасно болела спина. Знакомые советовали по врачам пройтись, но куда я с грудничком на руках. Пробовала делать массаж, врач домой приходил, от него только хуже стало - неделю ребенка на руки брала со слезами на глазах. Муж не мог смотреть на мои муки, раздобыл где-то Флексумгель, начал мазать мне спину. Боль сразу отступила, через несколько недель спина перестала о себе напоминать совсем, а через три месяца я смогла стать на мостик!</div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!--Usage-->
+
+<section class="usage">
+    <div class="container">
+
+        <h1>КАК ИСПОЛЬЗОВАТЬ<br><span class="orange_title">ФЛЕКСУМГЕЛЬ?</span></h1>
+        <div class="usage__items">
+            <figure>
+                <div class="item_img item_img-1"></div>
+                <figcaption>Вскройте индивидуальный пакет с порционной дозой геля Флексумгель</figcaption>
+            </figure>
+            <figure>
+                <div class="item_img item_img-2"></div>
+                <figcaption>Разогрейте гель в ладонях и нанесите его на пораженный участок тел</figcaption>
+            </figure>
+            <figure>
+                <div class="item_img item_img-3"></div>
+                <figcaption>Массируйте сустав до полного впитывания препарата</figcaption>
+            </figure>
+            <figure class="finger_man">
+                <div class="item_img item_img-4"></div>
+                <img src="img/usage4.png" alt="">
+                <figcaption>Выполняйте процедуру дважды в день до полного излечения</figcaption>
+            </figure>
+        </div>
+    </div>
+</section>
+
+<!--Bottom order-->
+<section class="order orderBottom clearfix">
+    <div class="container">
+        <header class="order__icons">
+            <div class="order__icon logo">
+                <img src="img/logo_bottom.png" alt="" class="hidden_mob">
+                <img src="img/logo.png" alt="">
+            </div>
+            <div class="order__icon order__icon-signs">
+                <figure class="order__icon approved">
+                    <img src="img/approved_bottom.png">
+                    <figcaption>
+                        ОДОБРЕНО<br> ВОЗ
+                    </figcaption>
+                </figure>
+                <figure class="order__icon recommended">
+                    <img src="img/recommended_bottom.png">
+                    <figcaption>
+                        РЕКОМЕНДОВАНО МИНЗРАВОМ РФ
+                    </figcaption>
+                </figure>
+            </div>
+            <img src="img/man.png" alt="" class="order__man">
+        </header>
+        <!--Desktop-->
+        <div class="orderBottom__reason hidden_mob">
+            <div class="orderBottom__frame">
+                Успейте оформить  заказ <span class="uppercase">ПО АКЦИИ</span>!
+            </div>
+            <div class="orderBottom__title">
+                <span class="title title-remove">Начните жить <span class="bold">без боли</span> и
+               скованности в движении
+                <span class="title title-product">с Флексумгелем!</span>
+            </div>
+            <ul class="orderBottom__list hidden_mob">
+                <li>Снимает болевой  синдром <span class="orange">за 5 минут</span></li>
+                <li>Возвращает полную <span class="orange">подвижность сустава</span></li>
+                <li>Устраняет <span class="orange">причину заболевания</span></li>
+                <li>Восстанавливает <span class="orange">костную и хрящевую ткани</span></li>
+            </ul>
+        </div>
+        <!--Mobile-->
+        <div class="order__reason hidden_desk">
+            <div class="order__title">
+                <span class="title title-remove">ИЗБАВЬТЕСЬ</span>
+                <span class="title title-pain">от боли в суставах</span>
+                <span class="title title-3days">ЗА 3 ДНЯ!</span>
+            </div>
+            <ul class="order__list">
+                <li>Снимает болевой  синдром <span class="orange">за 5 минут</span></li>
+                <li>Возвращает полную <span class="orange">подвижность сустава</span></li>
+                <li>Устраняет <span class="orange">причину заболевания</span></li>
+                <li>Восстанавливает <span class="orange">костную и хрящевую ткани</span></li>
+            </ul>
+        </div>
+        <div class="orderForm">
+            <div class="pack__circle"></div>
+            <div class="old-price">
+                <span class="old_price_val">1449</span>
+                <span class="old_price_cur">руб</span>
+            </div>
+            <div class="new-price">
+                <span class="new_price_val">149</span>
+                <span class="new_price_cur">руб*</span>
+            </div>
+            <form action="">
+                <select name="country" class="orderForm__item"></select>
+                <input type="text" name="name" placeholder="Имя" class="orderForm__item">
+                <input type="text" name="phone" placeholder="Телефон" class="orderForm__item">
+                <button type="submit" class="orderForm__btn">Заказать</button>
+                <span class="disclaimer disclaimer_price">*при заказе курса</span>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!--Footer-->
+
+<footer class="footer">
+    <div class="container">
+        <p class="adress">ООО "Флексумгель" 112445, Россия, Москва, Промышленная улица, 14 ИНН 7714525115 ОГРН 1117456145765</p>
+        <a href="../../politic.html">Политика конфиденциальности</a>
+        <a href="../../oferta.html">Публичная оферта</a>
+
+    </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+<script src="js/main.js"></script>
+
+<script>
+    $(document).ready(function(){
+        $('.feedback_mob').slick({
+            arrows: false,
+            autoplay: true,
+        });
+
+        $('.work__items_mob').slick({
+            arrows: false,
+            autoplay: true,
+        });
+    })
+</script>
+
+</body>
+</html>
+
